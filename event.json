@@ -1,0 +1,52 @@
+{
+    "resource": "/mackerel",
+    "path": "/mackerel",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "*/*",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-Country": "JP",
+        "Content-Type": "application/json",
+        "Host": "xxxxxxxxxx.execute-api.ap-northeast-1.amazonaws.com",
+        "User-Agent": "Mackerel Webhook Agent (https://mackerel.io/)",
+        "Via": "1.1 xxxxxxxxxxx3c56f1f1dbfb0927aeba8.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "xxxTwXAVtxxxxxxx0w3IVM5d2NluP0ToRpfdqeOG9AVVRyHYGLvwHw==",
+        "X-Amzn-Trace-Id": "Root=1-59c75001-089d341023af2cdc67f55f92",
+        "X-Forwarded-For": "11.193.111.111, 201.241.186.53",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "queryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "path": "/prd/mackerel",
+        "accountId": "999999999999",
+        "resourceId": "xxxxxx",
+        "stage": "prd",
+        "requestId": "40xx5782-x0f1-11e7-bb35-b9307a99a401",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "apiKey": "",
+            "sourceIp": "11.193.111.111",
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Mackerel Webhook Agent (https://mackerel.io/)",
+            "user": null
+        },
+        "resourcePath": "/mackerel",
+        "httpMethod": "POST",
+        "apiId": "roy3dfcm5h"
+    },
+    "body": "{\"orgName\":\"hoge-product\",\"event\":\"alert\",\"service\":{\"id\":\"2eA1ZW32p7y\",\"orgId\":\"2dpUKnyTUno\",\"name\":\"hoge\",\"memo\":\"\",\"roles\":[{\"fullname\":\"hoge: hoge\",\"serviceName\":\"hoge\",\"roleName\":\"hoge-scheduler\",\"serviceUrl\":\"https://mackerel.io/orgs/hoge/services/hoge-service\",\"roleUrl\":\"https://mackerel.io/orgs/hoge/services/hoge#role=hoge-scheduler\"},{\"fullname\":\"hoge: service\",\"serviceName\":\"hoge\",\"roleName\":\"service\",\"serviceUrl\":\"https://mackerel.io/orgs/hoge/services/hoge\",\"roleUrl\":\"https://mackerel.io/orgs/hoge/services/hoge#role=service\"},{\"fullname\":\"hoge: hoge\",\"serviceName\":\"hoge\",\"roleName\":\"worker\",\"serviceUrl\":\"https://mackerel.io/orgs/hoge/services/hoge\",\"roleUrl\":\"https://mackerel.io/orgs/hoge/services/hoge#role=worker\"}]},\"alert\":{\"url\":\"https://mackerel.io/orgs/hoge/alerts/37xxAfxhEHP\",\"createdAt\":1506234369051,\"status\":\"critical\",\"isOpen\":true,\"trigger\":\"monitor\",\"monitorName\":\"hoge-monitor\"}}",
+    "isBase64Encoded": false
+}
