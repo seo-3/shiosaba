@@ -1,5 +1,5 @@
-# kushisaba
-kushisaba is a Rest API to make a phone call based on mackerel's webhook alert.
+# shiosaba
+Shiosaba is a Rest API to make a phone call based on mackerel's webhook alert.
 
 **Requires Serverless >= v1.12**
 
@@ -29,13 +29,13 @@ Add the address to your `config.yml`:
 
 ```config.yml
 ---
-service: tamachi
+service: hoge
 voice: null
 notifications:
 - name: bob
-  tel: 819032487001
+  tel: 819031111111
 - name: alice
-  tel: 818021567895
+  tel: 811111117895
 ---
 ```
 
