@@ -1,0 +1,10 @@
+*.pydevproject
+__pycache__
+*.pyc
+*.tmp
+*.bak
+*.swp
+*~.nib
+/build/
+.requirements
+.serverless
